@@ -50,7 +50,7 @@ body {
 
 .nav-bar {
   position: sticky;
-  background-color: aqua;
+  background-color: rgb(52, 50, 50);
   align-items: center;
 }
 
@@ -72,6 +72,10 @@ body {
 
 /* github icon style */
 .fa-github {
+  padding: 50px;
+}
+
+.fa-code {
   padding: 50px;
 }
 

@@ -1,69 +1,14 @@
-/* media queries */
-@media (max-width: 575.98px) {
-}
-@media (min-width: 576px) and (max-width: 767.98px) {
-}
-@media (min-width: 768px) and (max-width: 991.98px) {
-}
-@media (min-width: 992px) and (max-width: 1199.98px) {
-}
-@media (min-width: 1200px) {
-}
-
 /* content container style */
 .flex-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  flex-direction: column;
-  height: 300vh;
   background-image: url(background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .content {
-  height: 300vh;
-  color: white;
   font-family: sans-serif, Arial, Helvetica, sans-serif;
   opacity: 0;
   animation: slideIn 2.5s ease forwards;
-  flex-wrap: nowrap;
-}
-
-/* name style */
-.name-header {
-  font-size: 5em;
-}
-
-/* title style */
-.title-header {
-  font-size: 2em;
-}
-
-/* phone icon style */
-.fa-phone {
-  padding: 50px;
-}
-
-/* email icon style */
-.fa-envelope {
-  padding: 50px;
-}
-
-/* linkedin icon style */
-.fa-linkedin {
-  padding: 50px;
-}
-
-/* github icon style */
-.fa-github {
-  padding: 50px;
-}
-
-.fa-code {
-  padding: 50px;
 }
 
 /* animation */
@@ -76,4 +21,27 @@
     opacity: 1;
     transform: translate(0%, 0%);
   }
+}
+
+/* media queries */
+@media (max-width: 575.98px) {
+  .name-header {
+    flex: 3;
+  }
+  .title-header {
+  }
+  .nav-bar {
+  }
+  .profile-pic {
+  }
+  .bio {
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+@media (min-width: 1200px) {
 }

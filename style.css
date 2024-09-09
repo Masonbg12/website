@@ -10,12 +10,6 @@
 @media (min-width: 1200px) {
 }
 
-body {
-  border: 0;
-  margin: 0;
-  height: 100%;
-}
-
 /* content container style */
 .flex-container {
   display: flex;
@@ -23,14 +17,14 @@ body {
   justify-content: center;
   text-align: center;
   flex-direction: column;
-  height: 100vh;
+  height: 300vh;
   background-image: url(background.jpg);
   background-size: cover;
-  background-position: center;
   background-repeat: no-repeat;
 }
 
 .content {
+  height: 300vh;
   color: white;
   font-family: sans-serif, Arial, Helvetica, sans-serif;
   opacity: 0;
@@ -48,12 +42,6 @@ body {
   font-size: 2em;
 }
 
-.nav-bar {
-  position: sticky;
-  background-color: rgb(52, 50, 50);
-  align-items: center;
-}
-
 /* phone icon style */
 .fa-phone {
   padding: 50px;
@@ -66,7 +54,6 @@ body {
 
 /* linkedin icon style */
 .fa-linkedin {
-  color: #0a66c2;
   padding: 50px;
 }
 

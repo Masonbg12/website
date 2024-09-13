@@ -6,9 +6,42 @@
 }
 
 .content {
-  font-family: sans-serif, Arial, Helvetica, sans-serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.first-section {
+  height: 90vh;
   opacity: 0;
   animation: slideIn 2.5s ease forwards;
+}
+
+.fa-arrow-right {
+  transform: rotate(90deg);
+}
+
+.footer {
+  height: 10vh;
+  font-size: 2vh;
+  animation: bounce;
+  animation-delay: 2.5s;
+  animation-iteration-count: infinite;
+}
+
+.name-header {
+  font-size: 8vh;
+}
+
+.title-header {
+  font-size: 3vh;
+}
+
+.profile-pic {
+  width: 40vh;
+  height: 40vh;
+}
+
+.bio {
+  font-size: 2vh;
 }
 
 /* animation */
@@ -23,25 +56,6 @@
   }
 }
 
-/* media queries */
-@media (max-width: 575.98px) {
-  .name-header {
-    flex: 3;
-  }
-  .title-header {
-  }
-  .nav-bar {
-  }
-  .profile-pic {
-  }
-  .bio {
-  }
-}
-@media (min-width: 576px) and (max-width: 767.98px) {
-}
-@media (min-width: 768px) and (max-width: 991.98px) {
-}
-@media (min-width: 992px) and (max-width: 1199.98px) {
-}
-@media (min-width: 1200px) {
+.animate__animated.animate__bounce {
+  --animate-duration: 1.8s;
 }

@@ -68,23 +68,14 @@
   --animate-duration: 1.8s;
 }
 
-/*@media (max-width: 575.98px) {
-  .bio {
-
-  }
-  .profile-pic {
-
+@media (max-width: 430.98px) {
+  .first-section {
+    height: 80vh;
   }
   .footer {
-
+    height: 20vh;
   }
-  .name-header {
-
-  }
-  .title-header {
-
-  }
-}*/
+}
 
 /*@media (max-width: 767.98px) {
   .profile-pic {

@@ -15,34 +15,33 @@
   animation: slideIn 2.5s ease forwards;
 }
 
-.fa-arrow-right {
-  transform: rotate(90deg);
+.name-header {
+  font-size: 10vw;
+}
+
+.title-header {
+  font-size: 6vw;
 }
 
 .footer {
   height: 10vh;
-  font-size: 1vw;
+  font-size: 4vw;
   animation: bounce;
   animation-delay: 2.5s;
   animation-iteration-count: infinite;
 }
 
-.name-header {
-  font-size: 5vw;
-}
-
-.title-header {
-  font-size: 3vw;
+.fa-arrow-right {
+  transform: rotate(90deg);
 }
 
 .profile-pic {
-  width: 25vw;
   height: 40vh;
+  width: 40vh;
 }
 
 .bio {
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 1vw;
 }
 
 /* custom font */
@@ -68,3 +67,84 @@
 .animate__animated.animate__bounce {
   --animate-duration: 1.8s;
 }
+
+/*@media (max-width: 575.98px) {
+  .bio {
+
+  }
+  .profile-pic {
+
+  }
+  .footer {
+
+  }
+  .name-header {
+
+  }
+  .title-header {
+
+  }
+}*/
+
+/*@media (max-width: 767.98px) {
+  .profile-pic {
+    height: 40vh;
+    width: 40vh;
+  }
+  .footer {
+  }
+  .name-header {
+  }
+  .title-header {
+  }
+}
+
+@media (min-width: 768px) {
+  .profile-pic {
+    height: 40vh;
+    width: 40vh;
+  }
+  .footer {
+  }
+  .name-header {
+  }
+  .title-header {
+  }
+}
+
+/*@media (min-width:992px) and (max-width: 1199.98px) {
+  .bio {
+
+  }
+  .profile-pic {
+
+  }
+  .footer {
+
+  }
+
+  .name-header {
+
+  }
+  .title-header {
+
+  }
+}
+
+@media (min-width: 1200px) {
+  .bio {
+
+  }
+  .profile-pic {
+
+  }
+  .footer {
+
+  }
+  .name-header {
+
+  }
+  .title-header {
+
+  }
+}*/

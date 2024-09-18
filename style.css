@@ -26,7 +26,6 @@
 
 .footer {
   height: 10vh;
-  font-size: 4vw;
   animation: bounce;
   animation-delay: 2.5s;
   animation-iteration-count: infinite;
@@ -89,7 +88,7 @@
     font-size: 4vw;
   }
   .footer {
-    font-size: 2vh;
+    font-size: 3vh;
   }
   .bio {
     font-size: 3vh;

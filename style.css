@@ -1,10 +1,11 @@
-/* content container style */
+/* flex viewport container style */
 .flex-container {
   background-image: url(background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
+/*  */
 .content {
   font-family: "Pixelify Sans", Georgia, "Times New Roman", Times, serif;
 }
@@ -75,67 +76,22 @@
   .footer {
     height: 22vh;
   }
-}
-
-/*@media (max-width: 767.98px) {
-  .profile-pic {
-    height: 40vh;
-    width: 40vh;
-  }
-  .footer {
-  }
-  .name-header {
-  }
-  .title-header {
-  }
-}
-
-@media (min-width: 768px) {
-  .profile-pic {
-    height: 40vh;
-    width: 40vh;
-  }
-  .footer {
-  }
-  .name-header {
-  }
-  .title-header {
-  }
-}
-
-/*@media (min-width:992px) and (max-width: 1199.98px) {
   .bio {
-
-  }
-  .profile-pic {
-
-  }
-  .footer {
-
-  }
-
-  .name-header {
-
-  }
-  .title-header {
-
+    font-size: 4vw;
   }
 }
 
-@media (min-width: 1200px) {
-  .bio {
-
-  }
-  .profile-pic {
-
-  }
-  .footer {
-
-  }
+@media (min-width: 431px) {
   .name-header {
-
+    font-size: 8vw;
   }
   .title-header {
-
+    font-size: 4vw;
   }
-}*/
+  .footer {
+    font-size: 2vh;
+  }
+  .bio {
+    font-size: 3vh;
+  }
+}

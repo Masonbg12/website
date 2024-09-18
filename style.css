@@ -21,28 +21,28 @@
 
 .footer {
   height: 10vh;
-  font-size: 20vw;
+  font-size: 1vw;
   animation: bounce;
   animation-delay: 2.5s;
   animation-iteration-count: infinite;
 }
 
 .name-header {
-  font-size: 50vw;
+  font-size: 5vw;
 }
 
 .title-header {
-  font-size: 15vw;
+  font-size: 3vw;
 }
 
 .profile-pic {
-  width: 40vw;
+  width: 25vw;
   height: 40vh;
 }
 
 .bio {
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 20vw;
+  font-size: 1vw;
 }
 
 /* custom font */

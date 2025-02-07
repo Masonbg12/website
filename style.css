@@ -1,3 +1,9 @@
+.custom-font {
+  font-family: "Pixelify Sans", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
 /*
 .flex-container {
   background-image: url(background.jpg);
@@ -43,7 +49,7 @@
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-.pixelify-sans-custom {
+.custom-font {
   font-family: "Pixelify Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;

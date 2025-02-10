@@ -4,6 +4,21 @@
   font-style: normal;
 }
 
+.footer {
+  animation: bounce;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+.fa-arrow-right {
+  transform: rotate(90deg);
+}
+.background {
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 /*
 .flex-container {
   background-image: url(background.jpg);
@@ -27,17 +42,6 @@
 
 .title-header {
   font-size: 6vw;
-}
-
-.footer {
-  height: 10vh;
-  animation: bounce;
-  animation-delay: 2.5s;
-  animation-iteration-count: infinite;
-}
-
-.fa-arrow-right {
-  transform: rotate(90deg);
 }
 
 .profile-pic {
